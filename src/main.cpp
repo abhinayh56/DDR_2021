@@ -352,7 +352,8 @@ void loop(){
     // checking github
     bool check_git = true;
     bool check_git_2 = false;
-    bool check_gir_3 = true; // added in github
+    bool check_git_3 = true; // added in github
+    bool check_git_4 = true; // edited on vscode after reopenning
 
     float Wz0 = 0;
     heading_controller.set_gains(2,0.2,0);
