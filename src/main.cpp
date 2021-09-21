@@ -351,7 +351,8 @@ void loop(){
     }*/
     // checking github
     bool check_git = true;
-    
+    bool check_git_2 = false;
+
     float Wz0 = 0;
     heading_controller.set_gains(2,0.2,0);
     Wz0 = 0.4*math.wrap(psi0-state.psi*180.0/PI,-180.0,180.0);
